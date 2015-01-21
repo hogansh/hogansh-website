@@ -5,7 +5,7 @@ category: Services
 title: About Me
 
 description: |
-  <p class="lead">I'm Sharon Hogan studying computer science and statistics in University of Toronto. I like to work in web develpment but I have also recently started my lectures in machine learning. If your wondering bout the picture, yup, that's me ;D though IT IS photoshopped. So what do I really look like? How about finding out for yourself in person? Here's my <a target="_blank" href="http://join.deathtothestockphoto.com/">resume</a> for reference.</p>
+  <p class="lead">I'm Sharon Hogan studying computer science and statistics in University of Toronto. I like to work in web develpment but I have also recently started my lectures in machine learning. If your wondering bout the picture, yup, that's me ;D though IT IS photoshopped. So what do I really look like? How about finding out for yourself in person? Here's my <a target="_blank" href="http://hogansh.me/Resume.pdf/">resume</a> for reference.</p>
 
 ---
 <!--original code from templete
