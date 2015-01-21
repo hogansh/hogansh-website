@@ -1,0 +1,27 @@
+---
+layout: default
+img: mic_3683.png
+category: Services
+title: About Me
+
+description: |
+  <p class="lead">I'm Sharon Hogan studying computer science and statistics in University of Toronto. I like to work in web develpment but I have also recently started my lectures in machine learning. If your wondering bout the picture, yup, that's me ;D though IT IS photoshopped. So what do I really look like? How about finding out for yourself in person? Here's my <a target="_blank" href="http://join.deathtothestockphoto.com/">resume</a> for reference.</p>
+
+---
+<!--original code from templete
+
+---
+layout: default
+img: ipad.png
+category: Services
+title: About Me
+
+description: |
+  <p class="lead">A special thanks to <a target="_blank"
+  href="http://join.deathtothestockphoto.com/">Death to the Stock
+  Photo</a> for providing the photographs that you see in this template.
+  Visit their website to become a member!</p>
+
+---
+
+-->

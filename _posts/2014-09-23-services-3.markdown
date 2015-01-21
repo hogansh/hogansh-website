@@ -1,0 +1,24 @@
+---
+layout: default
+img: Gmail-Logo.png
+category: Services
+title: Contact
+description: |
+  <p class="lead">Email: sharon.z.hogan@gmail.com</p>
+
+---
+<!-- original code from templete
+
+---
+layout: default
+img: phones.png
+category: Services
+title: Contact
+description: |
+  <p class="lead">This template features the 'Lato' font,
+  part of the <a target="_blank" href="http://www.google.com/fonts">Google
+  Web Font library</a>, as well as <a target="_blank"
+  href="http://fontawesome.io">icons from Font Awesome</a>.</p>
+
+---
+-->
