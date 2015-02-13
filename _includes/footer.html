@@ -5,9 +5,15 @@
             <div class="col-md-8">
                 <ul class="list-inline">
                     <li>
-                        <a href="#home">Home</a>
+                        <a id="home">Back To Top</a>
+                        <script>
+                            $("#home").click(function (){
+                            $('html, body').animate({ scrollTop: 0 }, 2000);
+                            });
+                        </script>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
+                <!--
                     <li>
                         <a href="#about">About</a>
                     </li>
@@ -19,6 +25,7 @@
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
+                -->
                 </ul>
                 <p class="copyright text-muted small">Copyright &copy; {{ site.title }} All Rights Reserved</p>
             </div>

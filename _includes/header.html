@@ -15,13 +15,28 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="About">About</a>
+                    <a id="About">About</a>
+                        <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+                        <script>
+                            $(document).ready(function (){
+                                $("#About").click(function (){
+                                    $('html, body').animate({
+                                        scrollTop: $("#div1").offset().top
+                                    }, 1500);
+                                });
+                            });
+                        </script>
                 </li>
                 <li>
-                    <a href="#">My Works</a>
+                    <a href="works">My Works</a>
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a id="contact">Contact</a>
+                        <script>
+                            $("#contact").click(function (){
+                                $("html, body").animate({ scrollTop: $(document).height() }, 2000);
+                            });
+                        </script>
                 </li>
             </ul>
         </div>
