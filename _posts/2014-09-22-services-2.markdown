@@ -4,9 +4,9 @@ img: mac_iphone.png
 category: Services
 title: My Works
 description: |
-  <p class="lead"> So far I have worked on three websites.<a
-  target="_blank" href="http://www.mountainviewtech.com/"> Mountain View Technologies</a> was my first website that I've ever made so it's simple and straightforward. Now I work for <a
-  target="_blank" href="http://herogames.ca/">Hero Games</a> on their website using Wordpress. The third and final one is of course the one you're looking at right now, using Jekyll.</p>
+  <a name="myWorks" id="myWorks"></a> <p class="lead"> I have worked with 3 small companies so far.<a
+  target="_blank" href="http://www.mountainviewtech.com/"> Mountain View Technologies</a> was my first website that I've ever made so it's simple and straightforward. Then I work for <a
+  target="_blank" href="http://herogames.ca/">Hero Games</a> on their website using Wordpress. The third and my current work place is <a target="_blank" href="http://firstavailable.ca/">First Available</a>. I help out with everything in can get my hands on, which includes both the website and the ios application. </p>
 ---
 
 <!-- original code from templete

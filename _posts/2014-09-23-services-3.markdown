@@ -4,8 +4,7 @@ img: Gmail-Logo.png
 category: Services
 title: Contact
 description: |
-  <p class="lead">Email: sharon.z.hogan@gmail.com</p>
-
+  <p class="lead">Email: sharon.z.hogan@gmail.com</p><a name="contact" id="contact"></a> 
 ---
 <!-- original code from templete
 

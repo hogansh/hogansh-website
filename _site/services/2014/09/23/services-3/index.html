@@ -47,13 +47,41 @@
         <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
             <ul class="nav navbar-nav navbar-right">
                 <li>
-                    <a href="About">About</a>
+                    <a href="#aboutMe">About</a>
+                    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.1/jquery.min.js"></script>
+                    <script type="text/javascript">
+                       $('a[href^="#aboutMe"]').click(function(){
+                            $('html, body').animate({
+                                scrollTop: $( $(this).attr('href') ).offset().top-150
+                            }, 1500);
+                            return false;
+                        });
+                    </script>
+
                 </li>
                 <li>
-                    <a href="#">My Works</a>
+                    <a href="#myWorks">My Works</a>
+                    <script type="text/javascript">
+                       $('a[href^="#myWorks"]').click(function(){
+                            $('html, body').animate({
+                                scrollTop: $( $(this).attr('href') ).offset().top-150
+                            }, 1500);
+                            return false;
+                        });
+                    </script>
+
                 </li>
                 <li>
-                    <a href="#">Contact</a>
+                    <a href="#contact">Contact</a>
+                    <script type="text/javascript">
+                       $('a[href^="#contact"]').click(function(){
+                            $('html, body').animate({
+                                scrollTop: $( $(this).attr('href') ).offset().top-50
+                            }, 1500);
+                            return false;
+                        });
+                    </script>
+
                 </li>
             </ul>
         </div>
@@ -102,7 +130,7 @@
 
   
     
-    <div class="content-section-a">
+    <div class="content-section-a" id="div1">
 
         <div class="container">
 
@@ -111,11 +139,11 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">About Me</h2>
-                    <p class="lead">I'm Sharon Hogan studying computer science and statistics in University of Toronto. I like to work in web develpment but I have also recently started my lectures in machine learning. If your wondering bout the picture, yup, that's me ;D though IT IS photoshopped. So what do I really look like? How about finding out for yourself in person? Here's my <a target="_blank" href="http://join.deathtothestockphoto.com/">resume</a> for reference.</p>
+                    <a name="aboutMe" id="aboutMe"></a><p class="lead">I'm Sharon Hogan studying computer science and statistics in University of Toronto. I like to work in web and app develpment but I have also recently started my lectures in machine learning. Want to know more about me? Here's my <a target="_blank" href="http://hogansh.me/Resume.pdf">resume</a> for reference.</p>  
 
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
-                    <img class="img-responsive" src="img/services/mic_3683.png" alt="">
+                    <img class="img-responsive" src="img/services/mic.png" alt="">
                 </div>
             </div>
 
@@ -129,7 +157,7 @@
   
     
 
-    <div class="content-section-b">
+    <div class="content-section-b" id="div2">
 
         <div class="container">
 
@@ -138,9 +166,9 @@
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">My Works</h2>
-                    <p class="lead"> So far I have worked on three websites.<a
-target="_blank" href="http://www.mountainviewtech.com/"> Mountain View Technologies</a> was my first website that I've ever made so it's simple and straightforward. Now I work for <a
-target="_blank" href="http://herogames.ca/">Hero Games</a> on their website using Wordpress. The third and final one is of course the one your looking at right now, using Jekyll.</p>
+                    <a name="myWorks" id="myWorks"></a> <p class="lead"> I have worked with 3 small companies so far.<a
+target="_blank" href="http://www.mountainviewtech.com/"> Mountain View Technologies</a> was my first website that I've ever made so it's simple and straightforward. Then I work for <a
+target="_blank" href="http://herogames.ca/">Hero Games</a> on their website using Wordpress. The third and my current work place is <a target="_blank" href="http://firstavailable.ca/">First Available</a>. I help out with everything in can get my hands on, which includes both the website and the ios application. </p>
 
                 </div>
                 <div class="col-lg-5 col-sm-pull-6  col-sm-6">
@@ -157,7 +185,7 @@ target="_blank" href="http://herogames.ca/">Hero Games</a> on their website usin
 
   
     
-    <div class="content-section-a">
+    <div class="content-section-a" id="div1">
 
         <div class="container">
 
@@ -166,7 +194,7 @@ target="_blank" href="http://herogames.ca/">Hero Games</a> on their website usin
                     <hr class="section-heading-spacer">
                     <div class="clearfix"></div>
                     <h2 class="section-heading">Contact</h2>
-                    <p class="lead">Email: sharon.z.hogan@gmail.com</p>
+                    <p class="lead">Email: sharon.z.hogan@gmail.com</p><a name="contact" id="contact"></a> 
 
                 </div>
                 <div class="col-lg-5 col-lg-offset-2 col-sm-6">
@@ -221,9 +249,15 @@ target="_blank" href="http://herogames.ca/">Hero Games</a> on their website usin
             <div class="col-md-8">
                 <ul class="list-inline">
                     <li>
-                        <a href="#home">Home</a>
+                        <a id="home">Back To Top</a>
+                        <script>
+                            $("#home").click(function (){
+                            $('html, body').animate({ scrollTop: 0 }, 2000);
+                            });
+                        </script>
                     </li>
                     <li class="footer-menu-divider">&sdot;</li>
+                <!--
                     <li>
                         <a href="#about">About</a>
                     </li>
@@ -235,8 +269,11 @@ target="_blank" href="http://herogames.ca/">Hero Games</a> on their website usin
                     <li>
                         <a href="#contact">Contact</a>
                     </li>
+                -->
                 </ul>
                 <p class="copyright text-muted small">Copyright &copy; Sharon Hogan All Rights Reserved</p>
+                <p class="copyright text-muted small">If your wondering bout the picture, yup, that's me ;D though IT IS photoshopped. </p>
+
             </div>
             <div class="col-md-4">
                 Credits: Landing Page is a free to use, open source Bootstrap theme created by <a href="http://startbootstrap.com/">Start Bootstrap</a>.
